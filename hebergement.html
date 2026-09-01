@@ -2,93 +2,80 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hébergement — mariage de Chloé & Arthur">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Hébergement pour le mariage de Chloé & Arthur">
   <title>Hébergement — Chloé & Arthur</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav container" aria-label="Navigation principale">
-      <a class="brand" href="index.html">Chloé <span>&</span> Arthur</a>
-      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <div class="nav-links">
-        <a href="index.html">Accueil</a>
-        <a class="active" href="hebergement.html">Hébergement</a>
-        <a href="infos-pratiques.html">Infos pratiques</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <div class="container narrow">
-        <p class="eyebrow">Pour dormir après la fête</p>
-        <h1>Hébergement</h1>
-        <p>Plusieurs possibilités pour passer la nuit à proximité du domaine.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container cards">
-        <article class="info-card featured">
-          <span class="card-number">01</span>
-          <h2>Dormir sur place</h2>
-          <p>
-            Il sera possible de dormir directement sur le Domaine du Petit Chambard,
-            <strong>en tente</strong>.
-          </p>
-          <p>
-            Pensez à prévoir votre tente, votre sac de couchage et tout le nécessaire
-            pour votre nuit sur place.
-          </p>
-          <div class="note">Les modalités précises seront communiquées prochainement.</div>
-        </article>
-
-        <article class="info-card">
-          <span class="card-number">02</span>
-          <h2>Locations à proximité</h2>
-          <p>
-            Pour celles et ceux qui préfèrent un vrai lit, vous pourrez réserver
-            un gîte, une chambre d'hôtes ou un logement de location dans les environs.
-          </p>
-          <p class="muted">Liste de logements recommandés à compléter.</p>
-        </article>
-
-        <article class="info-card">
-          <span class="card-number">03</span>
-          <h2>Hôtels</h2>
-          <p>
-            Des hôtels sont également disponibles dans les communes voisines.
-            Nous ajouterons ici une sélection avec les coordonnées et les liens
-            de réservation.
-          </p>
-          <p class="muted">Sélection à venir.</p>
-        </article>
-
-        <article class="info-card">
-          <span class="card-number">04</span>
-          <h2>Petit conseil</h2>
-          <p>
-            Si vous souhaitez dormir sur place, pensez à vous organiser à l'avance :
-            les places et les solutions d'hébergement à proximité peuvent être limitées.
-          </p>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>Chloé & Arthur · 05.06.2027</p>
+<header class="site-header">
+  <nav class="nav-container">
+    <a class="brand" href="index.html">Chloé <span>&</span> Arthur</a>
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a class="active" href="hebergement.html">Hébergement</a>
+      <a href="infos-pratiques.html">Infos pratiques</a>
     </div>
-  </footer>
+  </nav>
+</header>
 
-  <script src="script.js"></script>
+<main>
+  <div class="garland"><img src="assets/guirlande.png" alt="Guirlande décorative"></div>
+  <section class="page-title section-white">
+    <p class="eyebrow">Pour passer une bonne nuit</p>
+    <h1>Hébergement</h1>
+    <p>Le plus simple : dormir sur place. Mais plusieurs solutions sont possibles autour du domaine.</p>
+  </section>
+
+  <section class="cards-section section-cream">
+    <div class="cards">
+      <article class="info-card featured">
+        <span class="card-number">01 · SUR PLACE</span>
+        <h2>En tente ⛺</h2>
+        <p>Il est possible de dormir directement sur le Domaine du Petit Chambard.</p>
+        <p>Prévoyez votre tente, votre sac de couchage et tout le nécessaire pour la nuit.</p>
+        <p>Le lendemain matin, vous serez déjà sur place pour le brunch !</p>
+        <div class="note">Si vous souhaitez dormir sur place, pensez à nous le préciser dans le questionnaire.</div>
+      </article>
+
+      <article class="info-card">
+        <span class="card-number">02 · AU DOMAINE</span>
+        <h2>Les gîtes</h2>
+        <p>Le Domaine du Petit Chambard propose également des gîtes pour dormir sur place.</p>
+        <p>Pour connaître les capacités, les disponibilités et les conditions de réservation, consultez directement le site du domaine.</p>
+        <a class="text-link" href="https://www.petitchambard.fr/" target="_blank" rel="noopener">Voir le site du Petit Chambard →</a>
+      </article>
+
+      <article class="info-card">
+        <span class="card-number">03 · À PROXIMITÉ</span>
+        <h2>Gîtes & chambres d'hôtes</h2>
+        <p>Vous pouvez également choisir un hébergement dans les environs : gîte, chambre d'hôtes ou hôtel.</p>
+        <p>Nous vous conseillons de réserver assez tôt afin d'avoir le choix.</p>
+        <a class="text-link" href="https://www.petitchambard.fr/" target="_blank" rel="noopener">Voir les recommandations du domaine →</a>
+      </article>
+
+      <article class="info-card">
+        <span class="card-number">04 · NOTRE CONSEIL</span>
+        <h2>Anticipez votre nuit</h2>
+        <p>Après le repas et la soirée, mieux vaut avoir prévu votre solution de couchage à l'avance.</p>
+        <p>Si vous dormez ailleurs que sur le domaine, pensez également à organiser votre retour.</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="rsvp">
+    <p class="eyebrow">On compte sur vous</p>
+    <h2>On attend plus que votre réponse !</h2>
+    <p>Répondez vite au formulaire !</p>
+    <a class="rsvp-button" data-questionnaire href="#">Répondre au questionnaire →</a>
+  </div>
+  <img src="assets/guirlande.png" alt="Guirlande décorative">
+  <p class="footer-signature">Chloé <span>&</span> Arthur · 05.06.2027</p>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
