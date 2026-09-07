@@ -280,22 +280,36 @@ h3 { font-family: var(--body-font); font-size: 1rem; font-weight: 600; margin: 0
 
 /* MOBILE */
 @media (max-width: 600px) {
-  .nav-container { min-height: 62px; }
-  .brand { font-size: 1.45rem; }
-  .menu-toggle { display: block; }
-  .nav-links {
+  .nav-container {
+    min-height: 62px;
+    width: 100%;
+  }
+
+  .brand {
+    font-size: 1.45rem;
+  }
+
+  .menu-toggle {
     display: none;
-    position: absolute;
-    top: 62px;
-    left: 12px;
-    right: 12px;
-    flex-direction: column;
-    align-items: stretch;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
-    background: var(--white);
-    padding: 5px 18px;
-    border-radius: 14px;
-    box-shadow: 0 12px 35px rgba(48,69,116,.16);
+  }
+
+  .nav-links a {
+    padding: 12px 2px;
+    text-align: center;
+    font-size: .55rem;
+    letter-spacing: .03em;
+    white-space: nowrap;
+  }
+
+  .nav-links.open {
+    display: grid;
   }
   .nav-links.open { display: flex; }
   .nav-links a { padding: 14px 3px; border-bottom: 1px solid rgba(48,69,116,.10); }
