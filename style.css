@@ -56,7 +56,8 @@ a { color: inherit; }
   text-decoration: none;
   text-align: center;
   font-family: var(--title-font);
-  font-size: 1.65rem;
+  font-size: 1.9rem;
+  line-height: 1.2;
   white-space: nowrap;
 }
 .brand span, h1 span, .footer-signature span { color: var(--red); }
