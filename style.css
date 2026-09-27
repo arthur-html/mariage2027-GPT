@@ -3,7 +3,7 @@
    Palette fournie
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap');
 
 :root {
   --cream: #FBF4EE;
@@ -14,10 +14,8 @@
   --grey: #EEECED;
   --white: #FFFDFC;
 
-  /* Si Worstveld Sting est installée sur l'appareil, elle sera utilisée.
-     Sinon, Cormorant Garamond donne un rendu proche et élégant. */
-  --title-font: "Worstveld Sting", "Cormorant Garamond", Georgia, serif;
-  --body-font: Montserrat, Arial, sans-serif;
+  --title-font: "Merienda", Georgia, serif;
+  --body-font: "Montserrat", Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -124,8 +122,8 @@ h3 { font-family: var(--body-font); font-size: 1rem; font-weight: 600; margin: 0
 
 /* ACCUEIL */
 .hero {
-  min-height: calc(100vh - 182px);
-  padding: 65px 18px 80px;
+  min-height: calc(100vh - 150px);
+  padding: 20px 18px 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -287,7 +285,8 @@ h3 { font-family: var(--body-font); font-size: 1rem; font-weight: 600; margin: 0
   }
 
   .brand {
-    font-size: 1.45rem;
+    font-size: 2.00rem;
+    padding: 10px 2px;
   }
 
   .menu-toggle {
@@ -317,7 +316,7 @@ h3 { font-family: var(--body-font); font-size: 1rem; font-weight: 600; margin: 0
   .nav-links a:last-child { border-bottom: 0; }
 
   .garland { height: 76px; }
-  .hero { min-height: auto; padding: 54px 14px 62px; }
+  .hero { min-height: auto; padding: 24px 14px 32px; }
   .save-date { font-size: 1.75rem; }
   .couple { width: min(390px, 88vw); }
   h1 { font-size: clamp(3.45rem, 16vw, 5.4rem); margin: 4px 0 22px; }
@@ -326,7 +325,7 @@ h3 { font-family: var(--body-font); font-size: 1rem; font-weight: 600; margin: 0
   .date-ribbon span { font-size: .64rem; }
 
   .section-white, .section-cream { padding: 60px 16px; }
-  .intro h2 { font-size: 2.45rem; }
+  .intro h2 { font-size: 1.65rem; }
   .programme h2 { margin-bottom: 38px; }
   .event { grid-template-columns: 72px 1fr; gap: 15px; padding-bottom: 22px; margin-bottom: 22px; }
   .event time { font-size: 1.08rem; }
@@ -342,7 +341,7 @@ h3 { font-family: var(--body-font); font-size: 1rem; font-weight: 600; margin: 0
   .info-card { padding: 26px; }
   .info-card h2 { font-size: 2.05rem; }
   .rsvp { padding: 58px 18px 55px; }
-  .rsvp h2 { font-size: 2.5rem; }
+  .rsvp h2 { font-size: 2.0rem; }
   .site-footer > img { height: 70px; }
 }
 
